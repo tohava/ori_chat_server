@@ -1,0 +1,12 @@
+{application, ori_chat_server,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ori_chat_server_app, []}},
+  {env, []}
+ ]}.
